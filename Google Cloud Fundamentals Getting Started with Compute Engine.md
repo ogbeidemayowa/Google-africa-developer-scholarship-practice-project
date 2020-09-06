@@ -11,13 +11,13 @@
 
 ## Steps
 1. Create a Compute Engine virtual machine using the Google Cloud Platform (GCP) Console.
- gcloud compute instances create "my-vm-1" --machine-type "n1-standard-1" --image-project "debian-cloud" --image "debian-9-stretch-v20190213" --subnet "default"
+           gcloud compute instances create "my-vm-1" --machine-type "n1-standard-1" --image-project "debian-cloud" --image "debian-9-stretch-v20190213" --subnet "default"
  
 2. Create a Compute Engine virtual machine using the gcloud command-line interface.
  - To display a list of all the zones in the region to which Qwiklabs assigned you, enter this partial command
-  gcloud compute zones list | grep
+                    gcloud compute zones list | grep
  - Your completed command will look like this:
-  gcloud compute zones list | grep us-central1
+              gcloud compute zones list | grep us-central1
  - Choose a zone from that list other than the zone to which Qwiklabs assigned you. For example, if Qwiklabs assigned you to region us-central1 and zone us-central1-a you might choose zone us-central1-b.
  - To set your default zone to the one you just chose, enter this partial command gcloud config set compute/zone followed by the zone you chose.
  - Your completed command will look like this:
