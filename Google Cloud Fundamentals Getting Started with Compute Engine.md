@@ -1,7 +1,7 @@
 # LAB:Google Cloud Fundamentals: Getting Started with Compute Engine
 
 ## Objectives:
-- In this lab, you will learn how to perform the following tasks:
+In this lab, you will learn how to perform the following tasks:
 
 - Create a Compute Engine virtual machine using the Google Cloud Platform (GCP) Console.
 
@@ -11,7 +11,9 @@
 
 ## Steps
 1. Create a Compute Engine virtual machine using the Google Cloud Platform (GCP) Console.
-           gcloud compute instances create "my-vm-1" --machine-type "n1-standard-1" --image-project "debian-cloud" --image "debian-9-stretch-v20190213" --subnet "default"
+...
+ gcloud compute instances create "my-vm-1" --machine-type "n1-standard-1" --image-project "debian-cloud" --image "debian-9-stretch-v20190213" --subnet "default"
+...
  
 2. Create a Compute Engine virtual machine using the gcloud command-line interface.
  - To display a list of all the zones in the region to which Qwiklabs assigned you, enter this partial command
